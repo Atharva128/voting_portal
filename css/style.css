@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: black;   
+    height: 150px;
+}
+.navbar{
+    list-style: none;
+    float: right;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+}
+.logo{
+    height: 150px;
+}
+.logo2{
+    order: 3;
+    height: 150px;
+}
+header2{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 50px; 
+    justify-content: space-between;
+    border-bottom:1px solid black ;  
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+}
+.right h4{
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.right .cta{
+    padding: 10px;
+}
+.right button{
+    padding: 5px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.left button{
+    padding: 4px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 4px;
+    background-color: black;
+    color: white;
+}
+.container{
+    background-color:lavender;
+    width: 85%;
+    margin: 80px auto 0px auto;
+    padding: 0px 15px;
+}
+.mainheading{
+    background-color: gray;
+    padding: 20px 25px;
+}
+.subheading{
+    background-color:darksalmon;
+    padding: 20px 25px;
+}
+.class1{
+    margin-top: 80px;   
+}
+.class1 ul{
+    list-style-type: none;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.class1 ul li{
+    display: inline;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    padding: 70px;
+}
+.class1 ul li select{
+    background-color:rgb(16, 16, 172);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.class1 h4{
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.class1 label{
+    display:flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 0px 20px;
+}
+.class2 ol{
+    list-style-type:upper-alpha;
+    margin-left: 80px;
+}
+.class2 ol li{
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.class2 input{
+    display: inline-flex;
+    margin: 0px 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+.class2 button{
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color:rgb(16, 16, 172) ;
+}
+.class2 ol li select{
+    background-color:rgb(16, 16, 172);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.class3 ul{
+    list-style-type:none;
+    margin-left: 80px;
+}
+.class3 ul li{
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.class3 input{
+    display: inline-flex;
+    margin: 0px 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+.class3 button{
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color:rgb(16, 16, 172) ;
+}
+.class3 ul li select{
+    background-color:rgb(16, 16, 172);
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.class4 ul{
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.class4 ul li{
+    align-items: center;
+    padding: 15px 0px;
+}
+.class4 input{
+    display: inline-flex;
+    padding: 5px 15px;
+}
+
+.class5 ul{
+    list-style-type: none;
+    margin-left: 80px;
+}
+.class5 ul li{
+    align-items: center;
+    padding: 0px 15px;
+}
+.class5 select{
+    background-color:rgb(16, 16, 172);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.class6 h4{
+    font-weight: 400;
+}
+.class6 ul{
+    margin: 0px 80px;
+    list-style-type: none;
+}
+.class6 ul li{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+.class6 ul li input{
+    padding: 5px;
+    font-size: 15px;
+}
+.class6 select{
+    background-color:rgb(16, 16, 172);
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.captcha h4{
+    font-size: 400;
+    margin-left: 100px;
+    align-items: center;
+}
+.captcha img{
+    width: 150px;
+    height: 40px;
+}
+.captcha input{
+    margin-left: 10px;
+    padding: 28px 10px 0px 10px;
+}
+.captcha i{
+    margin: 0px 20px ;
+}
+.btns{
+    margin-left: 550px;
+}
+
+.btns button{
+    align-items: center;
+    background-color: rgb(48, 236, 57);
+    padding: 5px 10px;
+    color: white;
+    font-size: larger;
+    margin-left: 5px;
+}
+.footer{
+    background-color : black;
+    color: white;
+    margin-top: 5px;
+}
+.footer h4{
+    align-items: center;
+    line-height: 80px;
+    margin-left: 500px;
+}
